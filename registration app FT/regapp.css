@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background-image: linear-gradient(to right,#5c174e, #040073);
+}
+
+.navbar img {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.dropdown {
+    margin-left: 1000px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    padding: 14px 20px;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.content img {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px; height: 200px;
+}
+
+.para a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.para p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #4d4d4d;
+}
+
+.loginbtn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    overflow: hidden;
+    color: white;
+    font-size: 10px;
+    box-shadow: 0 0 10px #2564de;
+    background: linear-gradient( to right, #0c04ae, #2564de);
+}

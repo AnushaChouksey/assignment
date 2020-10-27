@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="details.css">
+    <title>Asset details</title>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="topBar">
+                <div class="msgContainer">
+                    <button style="border: none; background-color: white">
+                        <img src="unnamed (1).png">
+                        <p>New Message App</p>
+                        <i id="first" class="fa fa-caret-down"></i> 
+                    </button>                 
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">John smith
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">change password</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div> 
+        </div>
+
+        <div class="leftBar">
+            <img src="logo_large.png">
+            <div class="menuItems">
+                <a href="#" class="menu a">
+                    App Information
+                </a>
+                <a href="#" class="menu b">
+                    Assest Management
+                    <img class="arrow" src="Arrow.png" >
+                </a>
+            </div>
+        </div>
+
+        <div class="addNew">
+            <div class="back">
+                <a href="#">
+                    <img src="Back.png"> Back</a>
+            </div>
+
+            <p>Edit Assets</p>
+
+            <div class="lables">
+                <div class="assetnameandall">
+                    <label style="margin-right: 285px">Asset Name</label>
+                    <label>AR Tracking</label><br>
+                    <input type="text">
+    
+                    <select>
+                        <option>Verticle plane Tracking </option>
+                        <option name="">option1</option>
+                        <option name="">option2</option>
+                        <option name="">option3</option>
+                    </select>
+                   
+                </div>
+
+                <div class="image">
+                    <img src="3d icon-1.png"><br>
+                    <a href="#">Asset Image Upload</a>
+                </div>
+            <hr>
+            </div>
+
+        <div class="tab">
+            <button class="tablinks"> <img src="Apple.png" width="13px"> iOS</button>
+            <button class="tablinks"> <img src="Android.png" width="13px"> Android</button>
+            <button class="tablinks"> <img src="unity.png" width="13px"> Unity</button>
+        </div>
+
+        <button class="savebtn">Save</button> 
+        <button class="addbtn">Add</button>
+
+        <div class="grid-container">
+            <div class="one">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Drop down arrow.png" width="40">
+                <a href="Drop down arrow.png">imageicon.png</a>
+            </div>
+            
+            
+
+            <div class="two"> 
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Gallry.png" width="50">
+                <a href="Gallry.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="three">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Image.png" width="40">
+                <a href="Image.png">imageicon.png</a>
+            </div>  
+            
+
+            <div class="four">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="logout.png" width="40">
+                <a href="logout.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="five">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="icon.png" width="40">
+                <a href="icon.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="six">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Lock.png" width="30">
+                <a href="Lock.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="seven">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="15 Asset Detail_ImgID10.png" width="90" height="60">
+                <a href="15 Asset Detail_ImgID10.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="eight">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Drop down arrow.png" width="50">
+                <a href="Drop down arrow.png">imageicon.png</a>
+            </div> 
+            
+
+            <div class="nine">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="logout.png" width="40">
+                <a href="logout.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="ten">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="Images-2.png" width="80">
+                <a href="Images-2.png">imageicon.png</a>
+            </div>
+            
+
+            <div class="eleven">
+                <img id="cancle" href="#" src="Close.png">
+                <img src="calendar.png" width="40">
+                <a href="calendar.png">imageicon.png</a> 
+            </div>  
+                   
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<!--
+    <form action="/action_page.php">
+                <label for="name">Assest Name</label>
+                <input type="text" name="name" id="track">
+
+                <div class="floatLeft">
+                <label for="tracking">AR Tracking</label>
+                <select name="tracking" id="track">
+                    <options value=" "> </options>
+                    <options value=" "> </options>
+                </select>
+                </div>
+                </form>-->

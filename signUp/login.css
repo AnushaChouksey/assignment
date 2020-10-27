@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.png) no-repeat fixed;
+    background-size:  cover;
+}
+
+.login-container {
+    width: 300px;
+    height: 350px;
+    background: #02102a;
+    color: #fff;
+    top: 55%;
+    left: 78%;
+    border-radius: 20px;
+    border: 1px solid #2564de;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    margin: 30px 90px 30px 95px;
+}
+
+input[type="email"], input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: white;
+    background: inherit;
+    width: 200px;
+}
+
+input[type="text"]{
+    margin-bottom: 0;
+}
+
+#email, #password{
+    padding-bottom: 8px;
+}
+
+.reset {
+    float: right;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: -20px;
+    padding-right: 50px;
+}
+
+.loginbtn {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 100px;
+    overflow: hidden;
+    color: white;
+    font-size: 10px;
+    box-shadow: 0 0 10px #2564de;
+    background: linear-gradient( to right, #0c04ae, #2564de);
+}
+
+.signin {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.signin a{
+    color: white;
+    text-decoration: underline;
+}

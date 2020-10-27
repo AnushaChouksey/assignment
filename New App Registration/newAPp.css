@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    height: 80px;
+    background-image: linear-gradient(to right,#5c174e, #040073);
+}
+
+.navbar img {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.dropdown {
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    padding: 14px 20px;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.newReg {
+    width: 470px;
+    height: 310px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+.navbarSmall {
+    height: 30px;
+    background-image: linear-gradient(to right, darkblue, blue);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.appContent {
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+label { 
+    width: 200px; 
+    display: block; 
+    margin: 0 0 0.25em;
+    margin-bottom: 0;
+    font-size: 0.69em;
+    margin-left: 10px;
+} 
+  
+input {  
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    background-color: #e7f0ee;
+    opacity: 0.6;
+} 
+
+#dscrptn {
+    height: 100px;
+}
+
+.register{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    color: white;
+    font-size: 10px;
+    box-shadow: 0 0 10px #2564de;
+    background: linear-gradient( to right, #0c04ae, #2564de);
+}
+
+.right {
+    float: right;
+    margin-top: -170px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#upload {
+    width: 75px;
+    height: 80px;
+    border: none;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
